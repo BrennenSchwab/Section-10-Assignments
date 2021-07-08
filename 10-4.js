@@ -25,7 +25,7 @@ const removeRandom = (items) => {
   }
   
   const removeKey = (obj, key) => {
-    let newObj = { ...obj }
+    let newObj = { ...obj}
     delete newObj[key]
     return newObj;
   
